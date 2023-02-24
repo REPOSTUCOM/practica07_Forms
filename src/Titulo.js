@@ -35,10 +35,13 @@ export function Titulo(){
         </>
     );
   }
-  function InputTexto({valorEscrit, changeInput}){    
+function InputTexto({valorEscrit, changeInput}){    
         return (<> <br /> Texto:
             <input type="text" onChange={changeInput}
              style={valorEscrit%2==0?{backgroundColor:"red"}:{backgroundColor:"green"}}/>
             <span>{valorEscrit}</span>
         </>)
-  }
+}
+
+
+
